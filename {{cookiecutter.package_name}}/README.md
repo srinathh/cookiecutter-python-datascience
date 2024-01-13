@@ -83,4 +83,4 @@ docker run {{cookiecutter.package_name}}:latest
 
 Authors
 -------
-`{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>`_.
+`{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>`_.

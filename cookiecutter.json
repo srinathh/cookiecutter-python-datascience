@@ -1,0 +1,13 @@
+{
+    "author_name": "John Doe",
+    "author_email": "example@domain.com",
+
+    "package_name": "python_ds_project",
+    "package_version": "0.0.1",
+    "package_description": "A Python data science project",
+    "python_version": "3.11",
+    
+    "_copy_without_render": [
+        "*.json"
+    ]
+}
