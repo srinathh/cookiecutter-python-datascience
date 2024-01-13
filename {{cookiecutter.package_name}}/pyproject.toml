@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{cookiecutter.package_name}}"
+dynamic = ["version"]
+description = "{{cookiecutter.package_description}}"
+readme = "README.md"
+requires-python = ">={{cookiecutter.python_version}}"
+classifiers = [
+    "Programming Language :: Python :: {{cookiecutter.python_version}}",
+]
+dependencies = [
+]
+
+[project.scripts]
+{{cookiecutter.package_name}} = "bin:main.main"
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel",
+    "pytest",
+]
